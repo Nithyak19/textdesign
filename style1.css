@@ -1,0 +1,57 @@
+h3{
+    font-size: 20px;
+    color: rgb(199,55,100);
+    text-transform: capitalize;
+}
+p{
+    font-size: 25px;
+    color: rgb(100,100,165);
+}
+p.bgcolor {
+    color: rgba(50,20,120,0.7);
+    background-color: rgb(215,25,25);
+    font-size: 16px;
+}
+p.txtalign{
+    color: rgb(0,176,120) ;
+    background-color: rgb(0,255,0);
+    text-align: justify;
+    text-align-last: right;
+    letter-spacing: 20px;
+    line-height: 25px;
+}
+p.drt{
+    color: rgb(0,176,120);
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+p.txtdec{
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+
+}
+.txtint{
+    text-indent: 25px;
+    word-spacing: 10px;
+    white-space: wrap;
+
+}
+.textshadow{
+    color: black;
+    font-size: 50px;
+    text-align:center;
+    text-shadow: 15px 10px 3px blue;
+}
+.boxshadow{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    background-color: brown;
+    box-shadow: 0px 0px 10px 18px blue, 0px 0px 10px green;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+
+}
